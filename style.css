@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 340vh;
+    background-color: #ffffff;
+}
+
+header {
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #e22d2d;
+    padding: 1rem 25%;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    text-decoration: none;
+    font-size:medium;
+    font-weight: bold;
+}
+
+header i {
+    color: black;
+    font-size: x-large;
+    margin-left: 170px;
+}
+
+.logo {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: black;
+    margin-left: 4rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.home .home-content h1 {
+    font-size: 3.4rem;
+    font-weight: 650;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+.home-content p {
+    font-size: medium;
+    line-height: 2;
+    text-align: justify;
+}
+
+.home-pic {
+    border-radius: 50%;
+}
+
+.home-pic img {
+    position: relative;
+    width: 32vw;
+    border-radius: 5%;
+    border: 2px solid black;
+
+}
+
+.contact {
+    width: 600px;
+    background-color: white;
+    box-shadow: black;
+    text-align: center;
+    margin-left: 614px;
+    padding: 1rem 2%;
+    box-sizing: content-box;
+    margin-top: 80px;
+    height: 14%;
+    border: 2px solid black;
+
+}
+
+.contact h1 {
+    font-size: 3.4rem;
+    font-weight: 650;
+    line-height: 3;
+    text-decoration: underline;
+
+    
+}
+
+.contact h2 {
+    font-weight: 650;
+    line-height: 5;
+    font-size: medium;
+    
+}
+.contact h3 {
+    font-weight: 650;
+    line-height: 5;
+    font-size: medium;
+
+    
+}
+
+.contact h4 {
+    font-weight: 650;
+    line-height: 5;
+    font-size: medium;
+
+    
+}
+
+.contact h5 {
+    font-weight: 650;
+    line-height: 5;
+    font-size: medium;
+    
+}
+
+
+
+
+
+
+
+.head-title {
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 4;
+    margin-left: 100px;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+
+.wrapper {
+    width: 1400px;
+    background-color: white;
+    box-shadow: black;
+    text-align: center;
+    margin-left: 190px;
+    padding: 1rem 2%;
+    box-sizing: content-box;
+    margin-top: -40px;
+    height: 175%;
+    border: 2px solid black;
+
+}
+
+.wrapper h1 {
+    font-size: 3.4rem;
+    font-weight: 650;
+    text-align: centers;
+    line-height: 3;
+}
+
+.wrapper p {
+    font-size: medium;
+    line-height: 2;
+    text-align: justify;
+    padding-right: 48%;
+
+}
+
+.wrapper .dashboard img {
+    position: relative;
+    margin-left: 830px;
+    margin-top: -300px;
+    border-radius: 5%;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+.wrapper .login img {
+    position: relative;
+    margin-right: 850px;
+    margin-top: 100px;
+    border-radius: 5%;
+    border: 2px solid black;
+    display: flex;
+    width: 600px;
+}
+
+.wrapper .text p {
+    font-size: medium;
+    line-height: 2;
+    text-align: justify;
+    padding-right: 50px;
+    margin-left: 720px; 
+    margin-top: -300px;
+}
+
+.wrapper .text2 p {
+    font-size: medium;
+    line-height: 2;
+    text-align: justify;
+    padding-right: 48%;
+    margin-bottom: 0px;
+    padding-top: 4%;
+
+}
+
+.wrapper .code img {
+    position: relative;
+    margin-left: 830px;
+    margin-top: -300px;
+    border-radius: 5%;
+    border: 2px solid black;
+    display: flex;
+    width: 500px;
+}
